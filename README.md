@@ -25,7 +25,7 @@ Here’s an overview of the files and what they do:
 | `webscraper.ipynb` | Notebook which scrapes medical descriptions data from `drugs.com` |
 | `onemed.csv` | The cleaned dataset of medical descriptions (labels + text) |
 | `model_learning.ipynb` | Notebook for model training, evaluation, experiments |
-| `webapp.py` | Flask / API code for serving model predictions via a web interface |
+| `webapp.py` | Streamlit / API code for serving model predictions via a web interface |
 | `.gitignore` | Files / folders to ignore when pushing (e.g. data, temp files) |
 | `.idea/` | IDE config files |
 
@@ -35,7 +35,7 @@ Here’s an overview of the files and what they do:
 
 - **Python** (pandas, numpy, scikit-learn)  
 - **Transformers / Hugging Face** (for fine-tuning BERT)  
-- **Flask** (or other) for web app / inference interface  
+- **Streamlit** (or other) for web app / inference interface  
 - **Jupyter Notebooks** for exploration, modeling  
 - **Web scraping tools** (requests, BeautifulSoup, etc.)  
 
